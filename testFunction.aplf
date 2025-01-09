@@ -1,1 +1,4 @@
  res←testFunction rarg
+ ⍝ This function returns the right arg replicated
+ ⍝ 4 times
+ res←4⍴⊂rarg
